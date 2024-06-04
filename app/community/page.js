@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function CommunityPage() {
     return (
-        <main>
-            <h1 style={{ color: "white", textAlign: "center" }}>Time to get started!</h1>
+        <>
+            <h1>CommunityPage</h1>
             <p>
                 <Link href="/meals">/meals</Link>
             </p>
@@ -14,8 +14,8 @@ export default function Home() {
                 <Link href="/community">/community</Link>
             </p>
             <p>
-                <Link href="/meals/1">/media/some slug</Link>
+                <Link href="/meals/3">/media/some slug</Link>
             </p>
-        </main>
+        </>
     );
 }

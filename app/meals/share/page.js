@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function sharePage() {
     return (
-        <main>
-            <h1 style={{ color: "white", textAlign: "center" }}>Time to get started!</h1>
+        <>
+            <h1>sharePage</h1>
             <p>
                 <Link href="/meals">/meals</Link>
             </p>
@@ -16,6 +16,6 @@ export default function Home() {
             <p>
                 <Link href="/meals/1">/media/some slug</Link>
             </p>
-        </main>
+        </>
     );
 }
