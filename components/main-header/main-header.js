@@ -9,7 +9,7 @@ export default function MainHeader() {
             <MainHeaderBackground />
             <header className={classes.header}>
                 <Link className={classes.logo} href="/">
-                    <Image src={logeImg} alt="몰라" property />
+                    <Image src={logeImg} alt="몰라" priority />
                     NextLevel Food
                 </Link>
 
